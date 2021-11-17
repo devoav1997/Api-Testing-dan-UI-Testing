@@ -1,0 +1,24 @@
+{
+  "name": "Api-Testing-dan-UI-Testing",
+  "version": "1.0.0",
+  "description": "Api Testing dan UI Testing",
+  "main": "index.js",
+  "scripts": {
+    "cypress: open": "./node_modules/.bin/cypress open",
+    "cypress: run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devoav1997/Api-Testing-dan-UI-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devoav1997/Api-Testing-dan-UI-Testing/issues"
+  },
+  "homepage": "https://github.com/devoav1997/Api-Testing-dan-UI-Testing#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
